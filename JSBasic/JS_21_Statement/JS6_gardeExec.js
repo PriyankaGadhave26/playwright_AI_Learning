@@ -1,5 +1,15 @@
-let marks='22';
-if ( marks>=90  && marks<=100)
+let marks=789;
+
+if (typeof marks !== "number") {
+    console.log("Are you fool,why you are gving score as not a number");
+    return;
+}
+
+if (marks < 0 || marks > 100) {
+    console.log("Are you fool,why you are giving score <0 or. > 100");
+    return;
+}
+  if ( marks>=90  && marks<=100)
     {
      console.log("Grade A");
     }
@@ -14,12 +24,8 @@ if ( marks>=90  && marks<=100)
     {
         console.log("Grade D");
     }
-    else if(marks>=0 && marks<60)
+    else
     {
         console.log("Grade F");
     }
-    else 
-    {
-    console.log("Invalid marks");
-    }
-
+   
