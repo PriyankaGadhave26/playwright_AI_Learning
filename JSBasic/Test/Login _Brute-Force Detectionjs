@@ -1,0 +1,3 @@
+var count=0;
+const user= 'admin@testingacademy.com' ,pass= 'Test@1234' ;
+const MAX_FAILURES = 3;
