@@ -1,0 +1,8 @@
+    //identifier ,literal,keyword,operator,comment
+    var a=10;
+    a=20;
+    console.log(a);
+    // identifier : a(name of variable)
+    // literal : 10,20( value assigned to variable)
+    //=:operator
+    
